@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="43.976086">
+<testcase classname="OpClinic" name="Open op clinic" time="22.236331">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User enters UserName and Password and Select Institution and Service Centre.passed
+And login alert accept......................................................passed
+Then Message displayed Login Successfully...................................passed
+Given User on op clinic.....................................................passed
+When User is clicking op clinic.............................................passed
+Then goto op clinic dashboard...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Op Lite" name="Create new opLite" time="21.739755">
+<system-out><![CDATA[Given User is on opLite.....................................................passed
+When User select patient....................................................passed
+And User submit op details..................................................passed
+Then Op successfullfy.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
